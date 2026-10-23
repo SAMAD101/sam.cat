@@ -115,7 +115,23 @@ const experience = [
   },
 ];
 
-const projects = [
+const gossipGloomers = {
+  date: "Oct 2026",
+  title: (
+    <A href="https://gitlab.com/SAMAD101/gossip-gloomers">gossip-gloomers</A>
+  ),
+  desc: (
+    <>
+      My Go solutions to Fly.io's{" "}
+      <A href="https://fly.io/dist-sys/">distributed systems challenges</A>,
+      tested with Maelstrom under network partitions: echo, unique IDs,
+      broadcast, grow-only counter, Kafka-style log and totally-available
+      transactions.
+    </>
+  ),
+};
+
+const latest = [
   {
     date: "Jul 2026 - Present",
     title: <A href="https://orko.rs/">Orko</A>,
@@ -125,6 +141,11 @@ const projects = [
       <A href={gh("orko-rs/orko.rs")} />,
     ],
   },
+  gossipGloomers,
+];
+
+const projects = [
+  gossipGloomers,
   {
     date: "Feb 2026 - Jul 2026",
     title: <A href="https://www.redcircle.lol/home">RedCircle</A>,
@@ -331,6 +352,9 @@ export default function App() {
           </div>
         ))}
       </dl>
+
+      <h2>Latest</h2>
+      <List items={latest} />
 
       <h2>Experience</h2>
       <List items={experience} />
