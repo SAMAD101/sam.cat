@@ -330,7 +330,7 @@ const List = ({ items }) => (
 export default function App() {
   return (
     <main>
-      <h1>Abdul Samad Ansari</h1>
+      <h1>Samad A.</h1>
       <p className="mono muted">
         aka Sam, 2+ years in industry, 8+ years as a programmer<br></br>
         Fullstack (Backend-leaning), Distributed Systems and Blockchain
