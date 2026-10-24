@@ -5,6 +5,7 @@ const A = ({ href, children }) => (
 );
 
 const gh = (repo) => `https://github.com/${repo}`;
+const gl = (repo) => `https://gitlab.com/${repo}`;
 
 const experience = [
   {
@@ -117,9 +118,7 @@ const experience = [
 
 const gossipGloomers = {
   date: "Oct 2026",
-  title: (
-    <A href="https://gitlab.com/SAMAD101/gossip-gloomers">gossip-gloomers</A>
-  ),
+  title: <A href={gl("SAMAD101/gossip-gloomers")}>gossip-gloomers</A>,
   desc: (
     <>
       My Go solutions to Fly.io's{" "}
@@ -338,6 +337,7 @@ export default function App() {
       </p>
       <p>
         <A href={gh("SAMAD101")}>GitHub</A> ·{" "}
+        <A href={gl("SAMAD101")}>GitLab</A> ·{" "}
         <A href="https://www.linkedin.com/in/asamadans/">LinkedIn</A> ·{" "}
         {/* <A href="https://sambluecircle.substack.com/">Blog</A> ·{" "}*/}
         <A href="https://orko.rs/">Orko</A>
