@@ -339,6 +339,8 @@ export default function App() {
         <A href={gh("SAMAD101")}>GitHub</A> ·{" "}
         <A href={gl("SAMAD101")}>GitLab</A> ·{" "}
         <A href="https://www.linkedin.com/in/asamadans/">LinkedIn</A> ·{" "}
+        <A href="https://x.com/BlueCircle0">Twitter</A> ·{" "}
+        <A href="https://t.me/BlueCircle0">Telegram</A> ·{" "}
         <A href="https://cal.com/sam01b/30min">Let's Chat</A> ·{" "}
         {/* <A href="https://sambluecircle.substack.com/">Blog</A> ·{" "}*/}
         <A href="https://orko.rs/">Orko</A>
