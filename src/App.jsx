@@ -116,9 +116,9 @@ const experience = [
   },
 ];
 
-const gossipGloomers = {
+const gossipGlomers = {
   date: "Oct 2026",
-  title: <A href={gl("SAMAD101/gossip-gloomers")}>gossip-gloomers</A>,
+  title: <A href={gl("SAMAD101/gossip-gloomers")}>Gossip Glomers</A>,
   desc: (
     <>
       My solutions to Fly.io's distributed systems challenges, tested with
@@ -128,11 +128,11 @@ const gossipGloomers = {
   ),
   points: [
     <>
-      Go solutions: <A href={gl("SAMAD101/gossip-gloomers")}>gossip-gloomers</A>
+      Go solutions: <A href={gl("SAMAD101/gossip-gloomers")}>gossip-glomers</A>
     </>,
     <>
       Rust solutions:{" "}
-      <A href={gl("SAMAD101/gossip-gloomers-rs")}>gossip-gloomers-rs</A>
+      <A href={gl("SAMAD101/gossip-gloomers-rs")}>gossip-glomers-rs</A>
     </>,
   ],
 };
@@ -147,11 +147,11 @@ const latest = [
       <A href={gh("orko-rs/orko.rs")} />,
     ],
   },
-  gossipGloomers,
+  gossipGlomers,
 ];
 
 const projects = [
-  gossipGloomers,
+  gossipGlomers,
   {
     date: "Feb 2026 - Jul 2026",
     title: <A href="https://www.redcircle.lol/home">RedCircle</A>,
