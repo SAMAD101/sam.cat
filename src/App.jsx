@@ -121,13 +121,20 @@ const gossipGloomers = {
   title: <A href={gl("SAMAD101/gossip-gloomers")}>gossip-gloomers</A>,
   desc: (
     <>
-      My Go solutions to Fly.io's{" "}
-      <A href="https://fly.io/dist-sys/">distributed systems challenges</A>,
-      tested with Maelstrom under network partitions: echo, unique IDs,
-      broadcast, grow-only counter, Kafka-style log and totally-available
-      transactions.
+      My solutions to Fly.io's distributed systems challenges, tested with
+      Maelstrom under network partitions: echo, unique IDs, broadcast, grow-only
+      counter, Kafka-style log and totally-available transactions.
     </>
   ),
+  points: [
+    <>
+      Go solutions: <A href={gl("SAMAD101/gossip-gloomers")}>gossip-gloomers</A>
+    </>,
+    <>
+      Rust solutions:{" "}
+      <A href={gl("SAMAD101/gossip-gloomers-rs")}>gossip-gloomers-rs</A>
+    </>,
+  ],
 };
 
 const latest = [
