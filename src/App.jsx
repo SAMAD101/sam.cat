@@ -295,11 +295,11 @@ const projects = [
 const skills = {
   Languages: "Rust, TypeScript, Go, Python, Shell, C, Solidity",
   Blockchain: "Solana, Anchor, EVM, Foundry, OpenZeppelin, Chainlink",
-  Backend: "Node.js, Express, FastAPI, gRPC, Hyper, Axtix, Tokio",
+  Backend: "Node.js, Express, FastAPI, gRPC, Hyper, Axum, Actix, Tokio",
   Database: "PostgreSQL, MySQL, SQLite, MongoDB, Redis",
-  Frontend: "React, Next.js, Dioxus, WASM",
+  Frontend: "React, Next.js, Dioxus",
   Infra: "AWS, Terraform, Pulumi, GitHub Actions, Grafana, Kubernetes",
-  AI: "LangChain, ElizaOS, RAG, Agents",
+  AI: "LangChain, RAG, Agents",
 };
 
 const blogs = [
