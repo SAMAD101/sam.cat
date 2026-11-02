@@ -32,7 +32,7 @@ const experience = [
   },
   {
     date: "Jan 2025 - Jun 2025",
-    title: "Freelance",
+    title: "Independent Freelancer",
     points: [
       <>
         Backend developer on a scalable Telegram (grammY) bot for automated
@@ -53,7 +53,11 @@ const experience = [
   },
   {
     date: "Jul 2024 - Mar 2025",
-    title: "Solana ecosystem",
+    title: (
+      <>
+        <A href="https://solana.com/">Solana</A> ecosystem
+      </>
+    ),
     points: [
       <>
         Graduated from the <A href="https://turbin3.com/">Solana Turbin3</A>{" "}
@@ -98,16 +102,26 @@ const experience = [
   },
   {
     date: "Apr 2024 - Sep 2024",
-    title: "Junior Python Backend Engineer at Pwned Labs",
+    title: (
+      <>
+        Junior Python Backend Engineer at{" "}
+        <A href={"https://pwnedlabs.io/"}>Pwned Labs</A>
+      </>
+    ),
     points: [
       "Built backend services for a cybersecurity education platform offering real-world cloud security labs, serving 40,000+ users.",
       "Contributed to transitioning from a monolithic architecture to a microservices architecture; implemented an internal tool toexecute Terraform scripts on the server, enabling infrastructure changes on demand.",
-      "Provisioned and managed AWS services (EC2, ECS, EKS, VPC Peering, Transit Gateway, KMS) with Terraform.",
+      "Provisioned and managed AWS services (EC2, ECS, EKS, VPC Peering, Transit Gateway) with Terraform.",
     ],
   },
   {
     date: "Aug 2023 - Oct 2023",
-    title: "Python Developer at Shastra OS",
+    title: (
+      <>
+        Python Developer at{" "}
+        <A href={"https://gitlab.com/shastraos"}>ShastraOS</A>
+      </>
+    ),
     points: [
       "Developed two native Linux applications using GTK4 (PyGObject) and Libadwaita.",
       "Welcome & initial setup app for a simple tour of the Linux distribution and its features, and initial setup including users, language, timezones, essential packages, and backups.",
