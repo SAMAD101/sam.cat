@@ -129,6 +129,12 @@ const experience = [
     ],
   },
 ];
+const orko = {
+  date: "Jul 2026 - Present",
+  title: <A href="https://orko.rs/">Orko</A>,
+  desc: "Open source project (under development) for efficient, durable and blazing fast agent orchestration in Rust. Also built the Orko website in Rust/WASM with Dioxus.",
+  points: [<A href={gh("orko-rs/orko")} />, <A href={gh("orko-rs/orko.rs")} />],
+};
 
 const gossipGlomers = {
   date: "Oct 2026",
@@ -151,20 +157,32 @@ const gossipGlomers = {
   ],
 };
 
-const latest = [
-  {
-    date: "Jul 2026 - Present",
-    title: <A href="https://orko.rs/">Orko</A>,
-    desc: "Open source project (under development) for efficient, durable and blazing fast agent orchestration in Rust. Also built the Orko website in Rust/WASM with Dioxus.",
-    points: [
-      <A href={gh("orko-rs/orko")} />,
-      <A href={gh("orko-rs/orko.rs")} />,
-    ],
-  },
-  gossipGlomers,
-];
+const tributary = {
+  date: "Aug 2026 - Nov 2026",
+  title: <A href={gh("SAMAD101/tributary")}>Tributary</A>,
+  desc: (
+    <>
+      Rust research prototype that captures IEX exchange market-data feeds (TOPS
+      1.6 / DEEP 1.0) at line rate, with exact gap detection and A/B arbitration
+      — straight from the NIC over AF_XDP (kernel bypass).
+    </>
+  ),
+  points: [
+    <>
+      Rust workspace: 8 library crates + 1 CLI (~3,700 lines).{" "}
+      <A href={gh("SAMAD101/tributary")} />
+    </>,
+    "Exact gap detection from protocol sequence numbers, not heuristic, verified 0 gaps on a full day of IEX HIST data.",
+    "A/B arbitration merges the two redundant feed copies into one gap-free stream; ground-truth tested across 18 configs and a full day.",
+    "Lock-free, zero-allocation hot path with SPSC rings; AF_XDP kernel bypass to target 60 Mpps line-rate capture.",
+  ],
+};
+
+const latest = [orko, gossipGlomers, tributary];
 
 const projects = [
+  orko,
+  tributary,
   gossipGlomers,
   {
     date: "Feb 2026 - Jul 2026",
