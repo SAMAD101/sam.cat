@@ -371,7 +371,7 @@ export default function App() {
     <main>
       <h1>Samad A.</h1>
       <p className="mono muted">
-        aka Sam, 2+ years in industry, 8+ years as a programmer<br></br>
+        aka Sam, 22 y/o, 2+ years in industry, 8+ years as a programmer<br></br>
         Fullstack (Backend-leaning), Distributed Systems and Blockchain
       </p>
       <p>
